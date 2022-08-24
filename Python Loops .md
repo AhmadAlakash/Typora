@@ -19,7 +19,7 @@ while x < 10 : طالما
 
 
 
-[^]: ![image-20220821025018412](C:\Users\49157\AppData\Roaming\Typora\typora-user-images\image-20220821025018412.png)
+[^]: !image-20220821025018412(C:\Users\49157\AppData\Roaming\Typora\typora-user-images\image-20220821025018412.png)
 
 -------------------
 
@@ -199,12 +199,70 @@ for x in range (10) :
 ```python
 def mysum (name):
     for x in range (10):
-        pass
+        pass                  # placeholder حجز مكان 
 
     print (x)
 
 ```
 
--------------------------------
+### EX :
 
-loop with time 42 :33>>>>>>>>>>>>>>>>>>>>>>>>>>>
+------------------
+
+
+
+```python
+#1
+print ("Numbers" "\t""\t" "Square")
+print ("---------------------------")
+for x in range (11) :
+    print (x ,"\t""\t" ,x*x)
+
+```
+
+-------------------------
+
+```python
+#2
+print ("This code prints a list of numbers and their squares")
+Start = int(input ("Enter Start Number : "))
+End = int(input ("Enter End Number : "))
+
+print ("Numbers" "\t""\t" "Square")
+print ("---------------------------")
+for x in range (Start ,End+1) :
+    print (x ,"\t""\t" ,x*x)
+
+```
+
+---------------
+
+```python
+#3
+Start = int(input("Enter the starting number : ")) # rows
+End = int(input("How high should i go : ")) # cols
+for x in range (Start):
+    for y in range (End):
+        print ("x",end ="")  # print= what we have write + new line =\n
+        
+       
+   
+    print ()
+
+
+```
+
+--------------
+
+```python
+#4
+base = 10
+for x in range (base):
+    for y in range (x+1):
+        print ("x", end ="")
+    print ()
+
+```
+
+-------------
+
