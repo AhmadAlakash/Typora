@@ -262,8 +262,6 @@ for x in range (base):
         print ("x", end ="")
     print ()
 
-```
-
 -------------
 
 when i will print list with while loop : 
