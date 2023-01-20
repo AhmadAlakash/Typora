@@ -266,3 +266,13 @@ for x in range (base):
 
 -------------
 
+when i will print list with while loop : 
+
+ex : 
+
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1 
+
